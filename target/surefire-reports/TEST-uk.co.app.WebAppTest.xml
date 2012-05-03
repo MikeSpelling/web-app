@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.094" errors="0" skipped="0" tests="1" name="uk.co.app.WebAppTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="d:\Programs\Java\JDK\jre\bin"/>
+    <property name="java.vm.version" value="14.3-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="d:\Programming\Eclipse\Workspaces\web-app"/>
+    <property name="java.runtime.version" value="1.6.0_17-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="d:\Programming\Eclipse\Workspaces\web-app"/>
+    <property name="java.endorsed.dirs" value="d:\Programs\Java\JDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="D:\Temp\surefirebooter4467103637581555544.jar"/>
+    <property name="java.io.tmpdir" value="D:\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="d:\Programs\Java\JDK\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Documents and Settings\Mike\bin;.;D:\Programs\Git\local\bin;D:\Programs\Git\mingw\bin;D:\Programs\Git\bin;d:\Programs\Ruby193\bin;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\Program Files\Intel\DMIX;c:\matlab\bin\win32;d:\Programs\Java\JDK\bin;c:\Program Files\Common Files\Teleca Shared;d:\Programs\MATLAB\runtime\win32;d:\Programs\MATLAB\bin;c:\Program Files\QuickTime\QTSystem\;d:\Programs\Java\JDK\bin;d:\Programming\Microsoft VIsual C++\Tools\WinNT;d:\Programming\Microsoft VIsual C++\MSDev98\Bin;d:\Programming\Microsoft VIsual C++\Tools;d:\Programming\VC98\bin#C;D:\Programs\Git\Program Files\Csound\bin;d:\Programs\apache-maven-2.2.1\bin;D:\Programs\Git\bin"/>
+    <property name="surefire.test.class.path" value="d:\Programming\Eclipse\Workspaces\web-app\target\test-classes;d:\Programming\Eclipse\Workspaces\web-app\target\classes;C:\Documents and Settings\Mike\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Documents and Settings\Mike\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Documents and Settings\Mike\.m2\repository\org\mockito\mockito-all\1.9.0\mockito-all-1.9.0.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-webmvc\3.1.0.RELEASE\spring-webmvc-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-beans\3.1.0.RELEASE\spring-beans-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-core\3.1.0.RELEASE\spring-core-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-context\3.1.0.RELEASE\spring-context-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-aop\3.1.0.RELEASE\spring-aop-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-expression\3.1.0.RELEASE\spring-expression-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-context-support\3.1.0.RELEASE\spring-context-support-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-web\3.1.0.RELEASE\spring-web-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar;C:\Documents and Settings\Mike\.m2\repository\com\google\guava\guava\r05\guava-r05.jar;C:\Documents and Settings\Mike\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\Mike"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mike"/>
+    <property name="java.class.path" value="d:\Programming\Eclipse\Workspaces\web-app\target\test-classes;d:\Programming\Eclipse\Workspaces\web-app\target\classes;C:\Documents and Settings\Mike\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Documents and Settings\Mike\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Documents and Settings\Mike\.m2\repository\org\mockito\mockito-all\1.9.0\mockito-all-1.9.0.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-webmvc\3.1.0.RELEASE\spring-webmvc-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-beans\3.1.0.RELEASE\spring-beans-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-core\3.1.0.RELEASE\spring-core-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-context\3.1.0.RELEASE\spring-context-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-aop\3.1.0.RELEASE\spring-aop-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-expression\3.1.0.RELEASE\spring-expression-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-context-support\3.1.0.RELEASE\spring-context-support-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\org\springframework\spring-web\3.1.0.RELEASE\spring-web-3.1.0.RELEASE.jar;C:\Documents and Settings\Mike\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar;C:\Documents and Settings\Mike\.m2\repository\com\google\guava\guava\r05\guava-r05.jar;C:\Documents and Settings\Mike\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="d:\Programs\Java\JDK\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_17"/>
+    <property name="java.ext.dirs" value="d:\Programs\Java\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="d:\Programs\Java\JDK\jre\lib\resources.jar;d:\Programs\Java\JDK\jre\lib\rt.jar;d:\Programs\Java\JDK\jre\lib\sunrsasign.jar;d:\Programs\Java\JDK\jre\lib\jsse.jar;d:\Programs\Java\JDK\jre\lib\jce.jar;d:\Programs\Java\JDK\jre\lib\charsets.jar;d:\Programs\Java\JDK\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Documents and Settings\Mike\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0" classname="uk.co.app.WebAppTest" name="testClass"/>
+</testsuite>
