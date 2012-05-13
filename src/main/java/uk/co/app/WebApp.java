@@ -8,6 +8,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Hello world!
+ * 
+ * Add logging
  *
  */
 @Controller
@@ -15,15 +17,30 @@ public class WebApp {
 	
 	@RequestMapping("/")
 	public ModelAndView base(ModelAndView mav) throws Exception {
-        mav = new ModelAndView("hello");
-        mav.addObject("name", "Someone");
+        mav = new ModelAndView("welcome");
+        mav.addObject("heading", "Hello stranger");
+        mav.addObject("paragraph", "Oi oi someone");
         return mav;
     }
 	
-	@RequestMapping(value="{name}", method=RequestMethod.GET)
-    public ModelAndView named(@PathVariable("name") String name, ModelAndView mav) throws Exception {
-        mav = new ModelAndView("hello");
-        mav.addObject("name", name);
+	@RequestMapping(value="{paragraph}", method=RequestMethod.GET)
+    public ModelAndView named(@PathVariable("paragraph") String name, ModelAndView mav) throws Exception {
+        mav = new ModelAndView("welcome");
+	String paragraph = "Oi oi " + name;
+        mav.addObject("heading", "Hello " + name);
+        mav.addObject("paragraph", paragraph);
+        return mav;
+    }
+
+	@RequestMapping("/mike")
+    public ModelAndView named(@RequestParam(required=false) String greeting, ModelAndView mav) throws Exception {
+        mav = new ModelAndView("welcome");
+	String paragraph = "Oi oi Mikey boy";
+	if (greeting != null) {
+		String paragraph = greeting + "Mikey boy";
+	}
+        mav.addObject("heading", "Gday good sir");
+        mav.addObject("paragraph", paragraph);
         return mav;
     }
 	
