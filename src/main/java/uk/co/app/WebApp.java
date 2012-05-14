@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -33,11 +34,11 @@ public class WebApp {
     }
 
 	@RequestMapping("/mike")
-    public ModelAndView named(@RequestParam(required=false) String greeting, ModelAndView mav) throws Exception {
+    public ModelAndView parameterised(@RequestParam(required=false) String greeting, ModelAndView mav) throws Exception {
         mav = new ModelAndView("welcome");
 	String paragraph = "Oi oi Mikey boy";
 	if (greeting != null) {
-		String paragraph = greeting + "Mikey boy";
+		paragraph = greeting + "Mikey boy";
 	}
         mav.addObject("heading", "Gday good sir");
         mav.addObject("paragraph", paragraph);
