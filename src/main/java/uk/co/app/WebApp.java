@@ -46,7 +46,7 @@ public class WebApp {
         mav = new ModelAndView("welcome");
 		String paragraph = "Oi oi Mikey boy";
 		if (greeting != null) {
-			paragraph = greeting + "Mikey boy";
+			paragraph = greeting + " Mikey boy";
 		}
         mav.addObject("heading", "Gday good sir");
         mav.addObject("paragraph", paragraph);
